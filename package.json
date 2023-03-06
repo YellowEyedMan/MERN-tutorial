@@ -1,0 +1,31 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "GoalSetter for MERN Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node back-end/server.js",
+    "server": "node back-end/server.js"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YellowEyedMan/MERN-tutorial.git"
+  },
+  "author": "Devon Fennell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YellowEyedMan/MERN-tutorial/issues"
+  },
+  "homepage": "https://github.com/YellowEyedMan/MERN-tutorial#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
